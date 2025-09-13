@@ -1,0 +1,8 @@
+adhoc_testing/
+
+util/
+
+*.txt
+
+verification/ver01/expected_result.png
+verification/ver02/expected_result.png

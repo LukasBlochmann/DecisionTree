@@ -1,0 +1,54 @@
+INITIAL IMPURITY for <FULL DATASET> : 1.000000
+
+
+
+########## Data for category <EARSHAPE> ##########
+
+IMPURITY for group <earshape=pointy> : 0.721928
+IMPURITY for group <earshape=floppy> : 0.721928
+WEIGHTED AVERAGE IMPURITY for group <earshape> : 0.721928
+GAIN for group <earshape> : 0.278072
+
+
+########## Data for category <FACESHAPE> ##########
+
+IMPURITY for group <faceshape=round> : 0.985228
+IMPURITY for group <faceshape=norround> : 0.918296
+WEIGHTED AVERAGE IMPURITY for group <faceshape> : 0.965148
+GAIN for group <faceshape> : 0.034852
+
+
+########## Data for category <WHISKERS> ##########
+
+IMPURITY for group <whiskers=absent> : 0.918296
+IMPURITY for group <whiskers=present> : 0.811278
+WEIGHTED AVERAGE IMPURITY for group <whiskers> : 0.875489
+GAIN for group <whiskers> : 0.124511
+
+
+Valid roots: [('earshape', 0.2780719051126377)]
+
+
+Chosen ROOT: <EARSHAPE>
+
+	Branch: <earshape : pointy>
+	Entropy for remaining dataset fulfilling <earshape : pointy>: 0.721928
+	Result: <faceshape> -- Gain on remaining dataset: 0.721928.
+
+		Branch: <faceshape : round>
+		Result: (YES)
+
+		Branch: <faceshape : norround>
+		Result: (NO)
+
+	Branch: <earshape : floppy>
+	Entropy for remaining dataset fulfilling <earshape : floppy>: 0.721928
+	Result: <whiskers> -- Gain on remaining dataset: 0.721928.
+
+		Branch: <whiskers : absent>
+		Result: (NO)
+
+		Branch: <whiskers : present>
+		Result: (YES)
+
+All branches ended in a leaf. No more possibilities and tree is finished!

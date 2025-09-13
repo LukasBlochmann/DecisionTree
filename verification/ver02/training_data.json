@@ -1,0 +1,16 @@
+[
+  {"outlook": "rainy",      "humidity": "high",     "wind": "false",   "temperature": "hot",    "decision": "no"},
+  {"outlook": "rainy",      "humidity": "high",     "wind": "true",    "temperature": "hot",    "decision": "no"},
+  {"outlook": "overcast",   "humidity": "high",     "wind": "false",   "temperature": "hot",    "decision": "yes"},
+  {"outlook": "sunny",      "humidity": "high",     "wind": "false",   "temperature": "mild",   "decision": "yes"},
+  {"outlook": "sunny",      "humidity": "normal",   "wind": "false",   "temperature": "cool",   "decision": "yes"},
+  {"outlook": "sunny",      "humidity": "normal",   "wind": "true",    "temperature": "cool",   "decision": "no"},
+  {"outlook": "overcast",   "humidity": "normal",   "wind": "true",    "temperature": "cool",   "decision": "yes"},
+  {"outlook": "rainy",      "humidity": "high",     "wind": "false",   "temperature": "mild",   "decision": "no"},
+  {"outlook": "rainy",      "humidity": "normal",   "wind": "false",   "temperature": "cool",   "decision": "yes"},
+  {"outlook": "sunny",      "humidity": "normal",   "wind": "false",   "temperature": "mild",   "decision": "yes"},
+  {"outlook": "rainy",      "humidity": "normal",   "wind": "true",    "temperature": "mild",   "decision": "yes"},
+  {"outlook": "overcast",   "humidity": "high",     "wind": "true",    "temperature": "mild",   "decision": "yes"},
+  {"outlook": "overcast",   "humidity": "normal",   "wind": "false",   "temperature": "hot",    "decision": "yes"},
+  {"outlook": "sunny",      "humidity": "high",     "wind": "true",    "temperature": "mild",   "decision": "no"}
+]

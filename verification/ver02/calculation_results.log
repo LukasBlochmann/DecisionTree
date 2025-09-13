@@ -1,0 +1,63 @@
+========== Section.1: Initial Data Calculations ==========
+INITIAL IMPURITY for <FULL DATASET> : 0.940286
+
+
+########## Data for category <OUTLOOK> ##########
+IMPURITY for group <outlook=overcast> : -0.000000
+IMPURITY for group <outlook=sunny> : 0.970951
+IMPURITY for group <outlook=rainy> : 0.970951
+WEIGHTED AVERAGE IMPURITY for group <outlook> : 0.693536
+GAIN for group <outlook> : 0.246750
+
+########## Data for category <HUMIDITY> ##########
+IMPURITY for group <humidity=normal> : 0.591673
+IMPURITY for group <humidity=high> : 0.985228
+WEIGHTED AVERAGE IMPURITY for group <humidity> : 0.788450
+GAIN for group <humidity> : 0.151836
+
+########## Data for category <WIND> ##########
+IMPURITY for group <wind=false> : 0.811278
+IMPURITY for group <wind=true> : 1.000000
+WEIGHTED AVERAGE IMPURITY for group <wind> : 0.892159
+GAIN for group <wind> : 0.048127
+
+########## Data for category <TEMPERATURE> ##########
+IMPURITY for group <temperature=mild> : 0.918296
+IMPURITY for group <temperature=cool> : 0.811278
+IMPURITY for group <temperature=hot> : 1.000000
+WEIGHTED AVERAGE IMPURITY for group <temperature> : 0.911063
+GAIN for group <temperature> : 0.029223
+
+
+========== Section.2: Decision Tree build process ==========
+
+
+Valid roots: [('outlook', 0.24674981977443933)]
+
+
+Chosen ROOT: <OUTLOOK>
+
+	Branch: <outlook : overcast>
+	Result: (YES)
+
+	Branch: <outlook : sunny>
+	Entropy for remaining dataset fulfilling <outlook : sunny>: 0.970951
+	Result: <wind> -- Gain on remaining dataset: 0.970951.
+
+		Branch: <wind : false>
+		Result: (YES)
+
+		Branch: <wind : true>
+		Result: (NO)
+
+	Branch: <outlook : rainy>
+	Entropy for remaining dataset fulfilling <outlook : rainy>: 0.970951
+	Result: <humidity> -- Gain on remaining dataset: 0.970951.
+
+		Branch: <humidity : normal>
+		Result: (YES)
+
+		Branch: <humidity : high>
+		Result: (NO)
+
+All branches ended in a leaf. No more possibilities and tree is finished!

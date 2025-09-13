@@ -1,0 +1,12 @@
+[
+  {"earshape": "pointy",  "faceshape": "round",       "whiskers": "present",    "decision": "yes"},
+  {"earshape": "floppy",  "faceshape": "norround",    "whiskers": "present",    "decision": "yes"},
+  {"earshape": "floppy",  "faceshape": "round",       "whiskers": "absent",     "decision": "no"},
+  {"earshape": "pointy",  "faceshape": "norround",    "whiskers": "present",    "decision": "no"},
+  {"earshape": "pointy",  "faceshape": "round",       "whiskers": "present",    "decision": "yes"},
+  {"earshape": "pointy",  "faceshape": "round",       "whiskers": "absent",     "decision": "yes"},
+  {"earshape": "floppy",  "faceshape": "norround",    "whiskers": "absent",     "decision": "no"},
+  {"earshape": "pointy",  "faceshape": "round",       "whiskers": "absent",     "decision": "yes"},
+  {"earshape": "floppy",  "faceshape": "round",       "whiskers": "absent",     "decision": "no"},
+  {"earshape": "floppy",  "faceshape": "round",       "whiskers": "absent",     "decision": "no"}
+]
